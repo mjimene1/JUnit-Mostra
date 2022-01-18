@@ -1,5 +1,5 @@
 /*
- * Classe Utils per fer operacions amb strings i enters
+ * Classe Utils per fer operacions amb strings i enters.
  */
 package mostra;
 

@@ -5,7 +5,7 @@ package mostra;
 
 /**
  *
- * @author mjimenez
+ * @author mjimenez.s
  */
 public class Utils {
     

@@ -5,7 +5,8 @@ package mostra;
 
 /**
  *
- * @author mjimenez. Hola buenas tardes.
+ * @author mjimenez....
+ * 
  */
 public class Utils {
     

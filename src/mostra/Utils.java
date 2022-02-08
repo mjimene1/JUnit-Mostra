@@ -5,7 +5,7 @@ package mostra;
 
 /**
  *
- * @author mjimenez.soy yo a qué sí?xx
+ * @author mjimenez. Hola buenas tardes.
  */
 public class Utils {
     

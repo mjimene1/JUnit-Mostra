@@ -5,19 +5,24 @@ package mostra;
 
 /**
  *
- * @author mjimenez....
+ * @author mjimenez.
  * 
  */
 public class Utils {
+    /**
+     * Atribut públic Marcos.
+     */
+    public final static int MARCOS = 0;
     
-    private Utils() {
+    /** Constructor buit */
+    public Utils() {
     }
 
     /**
      * Calcula la suma de dos números enters.
-     * @param a
-     * @param b
-     * @return int
+     * @param a primer element suma
+     * @param b segon element suma
+     * @return int suma total
      */    
     public static int calculSuma(int a, int b){
         return a + b;
@@ -25,16 +30,15 @@ public class Utils {
     
     /**
      * Calcula el factorial d'un número enter.
-     * @param number
-     * @return String
-     * @throws IllegalArgumentException
+     * @param number int número que calcularem el factorial 
+     * @return factorial int calculat 
+     * @throws IllegalArgumentException Illegal Argument Exception
      */
     public static int calculFactorial(int number)
             throws IllegalArgumentException {
         if (number < 1) {
             throw new IllegalArgumentException("cero o paràmetre negatiu (" + number + ')');
         }
-
         int factorial = 1;
         for (int i = 2; i <= number; i++) {
             factorial = factorial*i;
@@ -44,8 +48,8 @@ public class Utils {
     
     /**
      * Validem que el valor màxim no supera 5.
-     * @param maxim
-     * @return boolean
+     * @param maxim int màxim 
+     * @return max boolean 
      */
     public static boolean validarMaxim(int maxim){
      boolean max = true;
